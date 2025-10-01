@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image" href="src/images/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
     <!-- Primary Meta Tags -->
     <title>João Pedro Ferraresi | Full-Stack Web Developer</title>
@@ -26,39 +25,39 @@
     <meta property="twitter:image" content="src/images/meta-img.png" />
   </head>
   <body>
-    <nav class="w-full fixed bg-white backdrop-blur-xl opacity-95">
+    <nav class="w-full sticky top-0 bg-white backdrop-blur-xl opacity-95">
       <div class="w-full flex flex-row justify-between max-w-[1328px] px-6 py-4 m-auto">
         <div class="flex flex-row gap-2 items-center">
-            <h1 class="text-2xl text-gray-800 font-bold">João Pedro F.</h1>
-            <p class="text-3xl text-indigo-500 font-bold">&lt;&gt;</p>
+            <h1 class="sm:text-2xl text-xl text-gray-800 font-bold">João Pedro F.</h1>
+            <p class="sm:text-3xl text-2xl text-indigo-500 font-bold">&lt;&gt;</p>
         </div>
-        <div class="flex flex-row gap-4 items-center text-gray-600">
+        <div class="lg:flex hidden flex-row gap-4 items-center text-gray-600">
           <a href="#inicio" class="hover:text-gray-800 transition duration-300">Início</a>
           <a href="#sobre-mim" class="hover:text-gray-800 transition duration-300">Sobre Mim</a>
           <a href="#conhecimentos" class="hover:text-gray-800 transition duration-300">Conhecimentos</a>
-          <a href="#" class="hover:text-gray-800 transition duration-300">Projetos</a>
+          <a href="#projetos" class="hover:text-gray-800 transition duration-300">Projetos</a>
           <a href="#" class="hover:text-gray-800 transition duration-300">Experiência</a>
         </div>
         <div class="flex flex-row gap-4 items-center">
-          <a href="https://github.com/JohnsonBeast7"><img class="w-7 h-7" src="src/images/github.svg"></a>
-          <a href="https://br.linkedin.com/in/joaoferraresi"><img class="w-7 h-7" src="src/images/linkedin.svg"></a>
+          <a href="https://github.com/JohnsonBeast7"><img class="sm:w-7 sm:h-7 w-6 h-6" src="src/images/github.svg"></a>
+          <a href="https://br.linkedin.com/in/joaoferraresi"><img class="sm:w-7 sm:h-7 w-6 h-6" src="src/images/linkedin.svg"></a>
         </div>
       </div>
     </nav>
-    <section id="inicio" class="pt-32 pb-32 flex flex-row items-center bg-white justify-between w-full max-w-[1328px] px-6 py-4 m-auto">
-        <div class="flex flex-col gap-6 w-fit">
-          <h3 class="font-medium text-indigo-500 text-2xl">Bem-vindo à minha página.</h3>
-          <h1 class="animate__animated animate__fadeIn text-5xl text-gray-800 font-bold">João Pedro Ferraresi</h1>
-          <h3 class="font-bold text-gray-800 text-2xl">Full-Stack Web Developer.</h3>
-          <div class="flex flex-row justify-between">
-            <a href="https://github.com/JohnsonBeast7" class="flex flex-row items-center gap-1 bg-indigo-500 transition duration-300 hover:bg-indigo-600 py-4 px-6 text-white rounded-lg font-medium shadow-sm">
+    <section id="inicio" class="lg:pt-32 lg:pb-32 pt-16 pb-16 flex lg:flex-row flex-col lg:gap-0 gap-12 items-center bg-white justify-between w-full max-w-[1328px] px-6 py-4 m-auto">
+        <div class="flex flex-col sm:gap-6 gap-3 w-fit">
+          <h3 class="font-medium text-indigo-500 sm:text-2xl text-xl">Bem-vindo à minha página.</h3>
+          <h1 class="sm:text-5xl text-4xl text-gray-800 font-bold">João Pedro Ferraresi</h1>
+          <h3 class="font-bold text-gray-800 sm:text-2xl text-xl">Full-Stack Web Developer.</h3>
+          <div class="flex sm:flex-row flex-col sm:justify-between sm:gap-0 gap-4">
+            <a href="https://github.com/JohnsonBeast7" class="flex flex-row sm:justify-normal justify-center items-center gap-1 bg-indigo-500 transition duration-300 hover:bg-indigo-600 py-4 px-6 text-white rounded-lg font-medium shadow-sm">
               <p>Meu Repositório</p>
               <img class="h-6 w-6" src="src/images/arrow.svg">
             </a>
-            <a class="border-2 border-indigo-500 py-4 px-6 text-indigo-500 rounded-lg font-medium shadow-sm">Entre em Contato Comigo</a>
+            <a href="#" class="border-2 border-indigo-500 py-4 px-6 text-indigo-500 rounded-lg font-medium shadow-sm bg-white hover:bg-indigo-50 transition duration-300 sm:text-left text-center">Entre em Contato Comigo</a>
           </div>
         </div>
-        <img class="max-w-[320px] rounded-full" src="src/images/joao-pedro.jpg">
+        <img class="sm:max-w-[320px] max-w-[272px] rounded-full" src="src/images/joao-pedro.jpg">
       
     </section>
     <section id="sobre-mim" class="pt-16 pb-16 bg-gray-50">
@@ -68,10 +67,10 @@
           <h2 class="text-center text-indigo-500 font-semibold text-xl">Me conheça melhor.</h2>
         </div>       
         <div class="flex flex-col gap-8 text-gray-700 text-justify"> 
-          <p>Desenvolvedor Full-Stack com experiência no desenvolvimento de aplicações web modernas, atuando tanto no front-end quanto no back-end. Trabalho com foco em performance e boas práticas de desenvolvimento, entregando soluções eficientes.</p>
-          <p>Atualmente, utilizo principalmente PHP com o framework Laravel para o desenvolvimento de APIs e sistemas no lado do servidor. No front-end, construo interfaces modernas e responsivas com HTML, CSS, JavaScript e TailwindCSS, garantindo uma ótima experiência para o usuário final.</p>
-          <p>Tenho experiência com bancos de dados relacionais, especialmente MySQL, realizando desde modelagem até otimizações de queries para melhorar o desempenho das aplicações.</p>
-          <p>Além disso, possuo conhecimentos em outras linguagens como Java e Python, e também em Docker para gerenciar aplicações, o que me permite atuar com mais flexibilidade em diferentes tipos de projetos e tecnologias.</p>
+          <p class="sm:text-base text-sm">Desenvolvedor Full-Stack com experiência no desenvolvimento de aplicações web modernas, atuando tanto no front-end quanto no back-end. Trabalho com foco em performance e boas práticas de desenvolvimento, entregando soluções eficientes.</p>
+          <p class="sm:text-base text-sm">Atualmente, utilizo principalmente PHP com o framework Laravel para o desenvolvimento de APIs e sistemas no lado do servidor. No front-end, construo interfaces modernas e responsivas com HTML, CSS, JavaScript e TailwindCSS, garantindo uma ótima experiência para o usuário final.</p>
+          <p class="sm:text-base text-sm">Tenho experiência com bancos de dados relacionais, especialmente MySQL, realizando desde modelagem até otimizações de queries para melhorar o desempenho das aplicações.</p>
+          <p class="sm:text-base text-sm">Além disso, possuo conhecimentos em outras linguagens como Java e Python, e também em Docker para gerenciar aplicações, o que me permite atuar com mais flexibilidade em diferentes tipos de projetos e tecnologias.</p>
         </div>
       </div>  
     </section>
@@ -79,10 +78,10 @@
       <div class="w-full flex flex-col gap-8 max-w-[1328px] px-6 py-4 m-auto">
         <div class="flex flex-col gap-2">
           <h2 class="text-center font-bold text-4xl text-gray-800">Conhecimentos</h2>
-          <h2 class="text-center text-indigo-500 font-semibold text-xl">Tecnologias que utilizo.</h2>
+          <h2 class="text-center text-indigo-500 font-semibold text-xl">As tecnologias que utilizo.</h2>
         </div>
-        <div class="flex flex-row gap-12">
-          <div class="flex flex-col gap-8 py-16 bg-gray-50 w-full">
+        <div class="w-full flex lg:flex-row flex-col gap-12 items-center">
+          <div class="flex flex-col gap-8 py-16 bg-gray-50 w-full lg:max-w-full max-w-[728px]">
             <h2 class="text-center text-gray-800 font-semibold text-3xl">Back-End</h2>
             <div class="px-8 grid grid-cols-3 gap-x-4 gap-y-8 justify-items-center">
               <img class="w-14 h-14" src="src/images/tecnologias/php.svg">
@@ -93,7 +92,7 @@
               <img class="w-14 h-14" src="src/images/tecnologias/python.svg">
             </div>
           </div>
-          <div class="flex flex-col gap-8 py-16 bg-gray-50 w-full">
+          <div class="flex flex-col gap-8 py-16 bg-gray-50 w-full lg:max-w-full max-w-[728px]">
             <h2 class="text-center text-gray-800 font-semibold text-3xl">Front-End</h2>
             <div class="px-8 grid grid-cols-3 gap-x-4 gap-y-8 justify-items-center">
               <img class="w-14 h-14" src="src/images/tecnologias/html.svg">
@@ -105,6 +104,55 @@
           </div>
         </div>
       </div>
+    </section>
+    <section id="projetos" class="pt-16 pb-16 bg-gray-50">
+      <div class="flex flex-col gap-8 max-w-[1072px] px-6 py-4 m-auto">
+        <div class="flex flex-col gap-2">
+          <h2 class="text-center font-bold text-4xl text-gray-800">Projetos</h2>
+          <h2 class="text-center text-indigo-500 font-semibold text-xl">Os trabalhos que desenvolvi.</h2>
+        </div>       
+        <div class="w-full grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 text-gray-700 text-justify lg:gap-10 gap-y-12 justify-items-center"> 
+          <div class="w-full max-w-[314px] flex flex-col text-left">
+              <img class="rounded-t-lg" src="src/images/php-crud.webp"></img>
+              <div class="flex flex-col gap-2 bg-white rounded-b-lg py-6 px-6">
+                <h3 class="text-gray-800 text-xl font-semibold">PHP Crud</h3>
+                <p class="text-gray-600">Sistema desktop de gestão 100% PHP, atualmente em construção.</p>
+                <a href="https://github.com/JohnsonBeast7/crud-php" target="_blank" class="hover:underline hover:decoration-indigo-500">
+                  <div class="flex flex-row gap-2 items-center">
+                      <img class="h-5 w-5" src="src/images/acessar.svg">
+                      <p class="text-indigo-500 font-medium">Acessar</p>
+                  </div>
+                </a>
+              </div>
+          </div>
+          <div class="w-full max-w-[314px] flex flex-col text-left">
+              <img class="rounded-t-lg" src="src/images/essenza.webp"></img>
+              <div class="flex flex-col gap-2 bg-white rounded-b-lg py-6 px-6">
+                <h3 class="text-gray-800 text-xl font-semibold">Institucional Essenza</h3>
+                <p class="text-gray-600">Site institucional da Empório Essenza, construído com Laravel</p>
+                <a href="https://www.emporioessenza.com.br/seja-franqueado" target="_blank" class="hover:underline hover:decoration-indigo-500">
+                  <div class="flex flex-row gap-2 items-center">
+                      <img class="h-5 w-5" src="src/images/acessar.svg">
+                      <p class="text-indigo-500 font-medium">Acessar</p>
+                  </div>
+                </a>
+              </div>
+          </div>
+          <div class="w-full max-w-[314px] flex flex-col text-left">
+              <img class="rounded-t-lg" src="src/images/johnsonbank.webp"></img>
+              <div class="flex flex-col gap-2 bg-white rounded-b-lg py-6 px-6">
+                <h3 class="text-gray-800 text-xl font-semibold">Johnsonbank</h3>
+                <p class="text-gray-600">Projeto de aprendizado sobre Grid e Flex, proposto pela Codeboost</p>
+                <a href="https://johnsonbank.vercel.app" target="_blank" class="hover:underline hover:decoration-indigo-500">
+                  <div class="flex flex-row gap-2 items-center">
+                      <img class="h-5 w-5" src="src/images/acessar.svg">
+                      <p class="text-indigo-500 font-medium">Acessar</p>
+                  </div>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>  
     </section>
     <script type="module" src="/src/js/main.js"></script>
   </body>
