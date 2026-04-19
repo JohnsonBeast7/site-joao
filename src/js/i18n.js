@@ -25,6 +25,7 @@ function applyTranslations(lang) {
   });
 
   document.documentElement.lang = lang === 'pt' ? 'pt-BR' : lang;
+  document.documentElement.setAttribute('data-lang', lang);
 }
 
 function setLang(lang) {

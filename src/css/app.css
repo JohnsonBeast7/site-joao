@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (min-width: 640px) {
+  html:not([data-lang="pt"]) .btn-hero-container {
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+}
