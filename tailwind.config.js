@@ -3,6 +3,13 @@ module.exports = {
   content: ["./*.html", "./src/**/*.{html,js}"],
   theme: {
     extend: {
+      colors: {
+        brand: {
+          50:  '#fef2f2',
+          500: '#950e11',
+          600: '#7a0b0e',
+        },
+      },
       backgroundImage: {
         'hero': "url('/src/imgs/bg-hero.webp')",
         'servico-1': "url('/src/imgs/servicos-1.webp')",
